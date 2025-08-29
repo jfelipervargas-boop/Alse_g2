@@ -1,5 +1,5 @@
 #include<studio.h>
 int main(int argc, char** argv){
-	printf("Copa Cabeza\n");
+	printf("Mug man\n");
 	return 0;
 }
