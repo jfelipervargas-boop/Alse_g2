@@ -33,7 +33,31 @@ int main() {
     {
         std::cout << "El primer numero es impar y el segundo es par" << std::endl;
     }
-    int arr[5] = (10,20,30,40,50);
+    int arr[5] = {10,20,30,40,50};
     
+    int* pToInt;
+    pToInt = &arr[5];
+    std::cout << "valor apuntado por pToInt"<<*pToInt << std::endl;
+    for (int i = 0; i < 5;i++,pToInt++)
+    {
+        std::cout << "Elemento " << i << ": " << *pToInt << std::endl;
+    }
+    pToInt=&a;
+    std::cout << "valor apuntado por pToInt"<<*pToInt << std::endl;
+
+    //while and do while
+
+    int count = 0;
+    char userInput = 'y';
+    while(userInput== 'y' || userInput == 'Y'){
+        std::cout << "Ingrese un caracter (y/n): ";
+        std::cin >> userInput;
+        std::cout << "Caracter # "<<count+1 << "ingresado: "<<userInput <<std::endl;
+    }
+    while (1){
+    //while infinito (1) while (count>0)
+    break;
+    }
+
     return 0;
 }
