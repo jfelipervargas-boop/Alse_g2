@@ -1,3 +1,5 @@
+//Integrantes Devid Poll Arteche y Juan Felipe Rodriguez
+
 #include <iostream>
 #include <string>
 using namespace std;
